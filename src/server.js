@@ -18,7 +18,7 @@ dotenv.config();
 
     console.log("✅ Tables synced");
 
-    const PORT = process.env.PORT || 3003;
+    const PORT = process.env.PORT || 8005;
     app.listen(PORT, () => {
       console.log(`🚀 Server running at http://localhost:${PORT}`);
     });
