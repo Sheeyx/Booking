@@ -1,0 +1,52 @@
+# ================================
+# Node & Build
+# ================================
+node_modules/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# Environment Files
+# ================================
+.env
+.env.development
+.env.production
+.env.local
+.env.*.local
+
+# ================================
+# OS / Editor Files
+# ================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ================================
+# Runtime / Temp Files
+# ================================
+.tmp/
+.cache/
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# TypeScript / Babel
+# ================================
+*.tsbuildinfo
+*.tgz
+
+# ================================
+# Misc
+# ================================
+.envrc
+.eslintcache
